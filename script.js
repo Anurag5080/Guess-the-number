@@ -1,5 +1,5 @@
 //Correct Guess: #FFD700 (Gold)
-// Incorrect Guess: #E74C3C (Bright Red)
+
 
 let randomNo = parseInt((Math.random()) * 100 + 1);
 
