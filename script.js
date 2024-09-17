@@ -12,7 +12,6 @@ const gameresult = document.getElementById('gameresult');
 
 // all required element got selected now the game is started.
 
-// let guessarrayjs1 = [];
 let guessnum = 1;
 
 let playgame = true;
