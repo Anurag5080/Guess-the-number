@@ -34,7 +34,6 @@ function validateguess(guess) {
     } else if (guess > 100) {
         alert('Please enter a number less than 100.');
     } else {
-        // guessarrayjs1.push(guess);
         if (guessnum === 10) {
             displayguess(guess);
             displaymsg(`Game Over. Random number was ${randomNo}.`,false);
