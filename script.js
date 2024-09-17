@@ -1,6 +1,3 @@
-//Correct Guess: #FFD700 (Gold)
-
-
 let randomNo = parseInt((Math.random()) * 100 + 1);
 
 const userinput = document.getElementById('userinput');
