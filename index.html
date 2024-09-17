@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess The Number</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="main">
+
+    <div class="intro">
+      <h1>Guess the Number!</h1>
+      <p>Can you guess the hidden number <span class="tt" >?</span> It's between 0 and 100 <span class="tt" >!!</span> Enter your guess below and hit "<span class="tt" >Submit</span>".</p>
+    </div>
+
+    <div class="container">
+
+      <input type="text" id="userinput" placeholder="Enter your guess here">
+      <div class="btn">
+        <button id="submitbtn">Submit Guess</button>
+        <button id="restartbtn">Restart Game</button>
+      </div>
+
+      <div class="container-text">
+        <div id="attemptremain"><span class="tt" >Remaining Attempts</span> : "You have <span class="tt" id="remain-attempt">10</span> attempts remaining."</div>
+        <div id="previousguesses">Your previous guesses are : <span class="tt" id="guessarray" ></span> </div>
+        <div id="hint"><span class="tt" >Hints</span> : "Need a hint ? Focus on the range!"</div>
+      </div>
+
+    </div>
+
+    <div class="result">
+      <div id="gameresult"></div>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>
