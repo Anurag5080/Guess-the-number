@@ -9,6 +9,7 @@ const restartbtn = document.getElementById('restartbtn');
 const remainattempt = document.getElementById('remain-attempt');
 
 const guessarrayjs = document.getElementById('guessarray');
+
 const hint = document.getElementById('hint');
 const gameresult = document.getElementById('gameresult');
 
