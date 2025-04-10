@@ -4,7 +4,6 @@ const userinput = document.getElementById('userinput');
 
 const submitbtn = document.getElementById('submitbtn');
 
-
 const restartbtn = document.getElementById('restartbtn');
 
 const remainattempt = document.getElementById('remain-attempt');
