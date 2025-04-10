@@ -15,6 +15,7 @@ const hint = document.getElementById('hint');
 
 
 
+
 const gameresult = document.getElementById('gameresult');
 
 // all required element got selected now the game is started.
