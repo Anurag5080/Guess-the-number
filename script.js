@@ -1,5 +1,6 @@
 let randomNo = parseInt((Math.random()) * 100 + 1);
 
+
 const userinput = document.getElementById('userinput');
 
 const submitbtn = document.getElementById('submitbtn');
